@@ -1,0 +1,21 @@
+{
+  "name": "neovim-in-vs-code",
+  "displayName": "Neovim in VS Code",
+  "description": "ANSI base 16 colors them for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "bjin",
+        "uiTheme": "hc-black",
+        "path": "./themes/bjin-color-theme.json"
+      }
+    ]
+  }
+}
